@@ -245,7 +245,7 @@ try:
             # Generate response
             with st.spinner("Analyzing your finances..."):
                 response = client.models.generate_content(
-                    model="gemini-2.5-flash", # Old model: gemma-3n-e4b-it
+                    model="gemini-2.5-pro", # Old model: gemma-3n-e4b-it
                     contents=full_prompt
                 )
 
