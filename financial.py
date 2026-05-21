@@ -27,7 +27,7 @@ st.markdown( # Header card
 )
 
 
-plt.style.use("ggplot")
+plt.style.use("ggplot") 
 sns.set_style("whitegrid")
 sns.set_palette("pastel")
 
